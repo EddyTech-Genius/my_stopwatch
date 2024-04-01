@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Epilogue:wght@300&family=Fraunces:opsz@9..144&family=Hanken+Grotesk:ital,wght@1,300&family=Inter&family=Montserrat&family=Outfit:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  box-shadow: 0 2px 4px rgba(65, 64, 64, 0.45);
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.login {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.clock-site {
+  color: red;
+  position: relative;
+}
+
+aside {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+aside h1 {
+  margin: 0;
+  max-width: 350px;
+  font-size: 50px;
+  line-height: 60px;
+}
+aside p {
+  max-width: 540px;
+  line-height: 25px;
+  letter-spacing: 0.1px;
+  color: rgba(44, 42, 42, 0.75);
+  margin-top: 30px;
+}
+aside button {
+  padding: 20px;
+  font-size: 16px;
+  width: 260px;
+  margin-top: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(108, 104, 104, 0.915);
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  transition: all 2s;
+  cursor: grab;
+  box-shadow: 2px 2px 2px 1px rgba(65, 64, 64, 0.45);
+}
+
+img {
+  margin-left: 900px;
+  position: relative;
+  bottom: 300px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* min-height: 300vh; */
+  font-family: Poppins, "san-serif";
+}
+
+.home {
+  min-height: 95vh;
+  width: 100%;
+  background-color: white;
+}
+
+.count-site {
+  min-height: 90vh;
+  background-color: white;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, blue, blueviolet);
+}
+
+.wrapper {
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: -1px 1px 2px 3px grey;
+}
+
+.stopwatch {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: black;
+}/*# sourceMappingURL=stopwatch.css.map */
